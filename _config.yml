@@ -1,0 +1,19 @@
+# Global Configuration
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# GitHub Flavored Markdown
+kramdown:
+  input: GFM
+  
+# Site Variables
+title: TCLee's GitHub Page
+full_name: Lee Tze Cheun
+email: tzecheun.lee@gmail.com
+github_username: tclee
+twitter_username: tzecheun
+description: "Copyright &copy; 2014 Lee Tze Cheun. All rights reserved."
+url: "https://github.com/tclee"

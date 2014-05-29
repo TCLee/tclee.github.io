@@ -1,88 +1,20 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="TCLee : Hello, brave adventurer. Welcome to my GitHub Page." />
+<div class="home">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <header class="post-header">
+    <h1>Featured Projects</h1>
+  </header>
 
-    <title>TCLee</title>
-  </head>
+  <ul class="posts">
+    {% for project in site.data.projects %}
+      <li>
+        <a href="{{ project.url }}">{{ project.title }}</a>
+        <p>{{ project.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/TCLee">View on GitHub</a>
-
-          <h1 id="project_title">TCLee</h1>
-          <h2 id="project_tagline">Hello, brave adventurer. Welcome to my GitHub Page.</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>
-<a name="game-projects" class="anchor" href="#game-projects"><span class="octicon octicon-link"></span></a>Game Projects</h2>
-
-<p><a href="https://github.com/TCLee/PeevedPenguins">Peeved Penguins</a> - A simple physics-based 2D game that is built using SpriteBuilder toolkit.</p>
-
-<p><a href="https://github.com/TCLee/RollABall">Roll A Ball</a> - A basic rolling ball game that is built with Unity toolset.</p>
-
-<p><a href="https://github.com/TCLee/SpaceShooter">Space Shooter</a> - A simple top down arcade style shooter created with Unity toolset.</p>
-
-<h2>
-<a name="ios-projects" class="anchor" href="#ios-projects"><span class="octicon octicon-link"></span></a>iOS Projects</h2>
-
-<p><a href="http://tclee.github.io/TCGoogleStreetView">TCGoogleStreetView</a> - Visit museums using Google Street View.</p>
-
-<p><a href="http://tclee.github.io/TCGoogleMaps">TCGoogleMaps</a> - Get driving directions with Google Maps.</p>
-
-<p><a href="http://tclee.github.io/TCPhotos500px">TCPhotos500px</a> - Explore the best of 500px's photos.</p>
-
-<p><a href="http://tclee.github.io/TCKnowledgeGraph">TCKnowledgeGraph</a> - Learning with Freebase's knowledge graph.</p>
-
-<p><a href="https://github.com/TCLee/TCParticleFX">TCParticleFX</a> - Easy particle effects with Core Animation.</p>
-
-<p><a href="https://github.com/TCLee/TCFaceDetection">TCFaceDetection</a> - Detect a person' face in a photo and automatically enhance the photo using Core Image.</p>
-
-<p><a href="https://github.com/TCLee/TCImageFilter">TCImageFilter</a> - Experimenting with Core Image's filters.</p>
-
-<p><a href="https://github.com/TCLee/TCMusicPlayer">TCMusicPlayer</a> - Build your very own music player with Apple's <code>AV Foundation</code> classes.</p>
-
-<h2>
-<a name="mac-os-x-projects" class="anchor" href="#mac-os-x-projects"><span class="octicon octicon-link"></span></a>Mac OS X Projects</h2>
-
-<p><a href="https://github.com/TCLee/GoogleBooksDownloader/">Google Books Downloader</a> - Download preview pages from 
-Google Books for your offline reading pleasure.</p>
-
-<p><a href="https://github.com/TCLee/RouxbeVideoDownloader/">Rouxbe Video Downloader</a> - Learn how to cook with Rouxbe's Cooking School.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-44945057-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
-</html>
+</div>
