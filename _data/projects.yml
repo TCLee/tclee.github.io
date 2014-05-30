@@ -7,11 +7,11 @@
   description: Tour museums of the world using Google Street View.
   
 - title: Google Maps Directions
-  url: http://tclee.github.io/TCGoogleMaps
+  url: https://github.com/tclee/TCGoogleMaps
   description: Feeling lost? Get driving directions with Google Maps API.
 
 - title: Knowledge Graph
-  url: http://tclee.github.io/TCKnowledgeGraph
+  url: https://github.com/tclee/TCKnowledgeGraph
   description: Explore and learn using Google's Freebase Knowledge Graph.
   
 - title: 500px Photos
@@ -21,7 +21,11 @@
 - title: Face Detection
   url: https://github.com/TCLee/TCFaceDetection
   description: Detect faces in a photo using Apple's Core Image framework.
-    
+        
+- title: Music Player
+  url: https://github.com/TCLee/TCMusicPlayer
+  description: Build your own little music player with Apple's AV Foundation framework.
+
 - title: Space Shooter 2D
   url: https://github.com/tclee/SpaceShooter
   description: A simple top down arcade style shooter created with the Unity toolset.

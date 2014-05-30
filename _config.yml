@@ -8,12 +8,13 @@ permalink: pretty
 # GitHub Flavored Markdown
 kramdown:
   input: GFM
-  
+    
 # Site Variables
-title: TCLee's GitHub Page
-full_name: Lee Tze Cheun
+title: Lee Tze Cheun
+tagline: I love bananas. How about you?
 email: tzecheun.lee@gmail.com
-github_username: tclee
-twitter_username: tzecheun
-description: "Copyright &copy; 2014 Lee Tze Cheun. All rights reserved."
-baseurl: http://tclee.github.io
+github: tclee
+twitter: tzecheun
+
+# Explicitly specify an empty string because GitHub pages defaults to '/'.
+baseurl: ""

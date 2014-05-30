@@ -4,17 +4,15 @@ layout: default
 
 <div class="home">
 
-  <header class="post-header">
-    <h1>Featured Projects</h1>
-  </header>
+  <h1>Featured Projects</h1>
 
   <ul class="posts">
     {% for project in site.data.projects %}
       <li>
-        <a href="{{ project.url }}">{{ project.title }}</a>
-        <p>{{ project.description }}</p>
+        <a class="post-link" href="{{ project.url }}">{{ project.title }}</a>
+        <span class="post-date">{{ project.description }}</span>
       </li>
     {% endfor %}
   </ul>
-
+  
 </div>
